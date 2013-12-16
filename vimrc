@@ -11,3 +11,5 @@ set number
 set foldmethod=indent
 set foldlevel=1
 filetype plugin indent on
+let Tlist_Auto_Open=1
+let NERDTreeWinPos="right"
