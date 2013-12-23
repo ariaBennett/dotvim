@@ -1,4 +1,5 @@
 execute pathogen#infect()
+filetype off
 syntax on
 colorscheme desert
 set backupdir=./.backup,.,/tmp
@@ -10,6 +11,5 @@ set expandtab
 set number
 set foldmethod=indent
 set foldlevel=1
-filetype plugin indent on
 let Tlist_Auto_Open=1
-let NERDTreeWinPos="right"
+filetype plugin indent on
