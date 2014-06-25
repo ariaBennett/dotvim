@@ -22,3 +22,9 @@ set number
 
 "Font
 set guifont="LiberationMono:h16"
+
+"alt+arrow key window switching
+nmap <silent> <A-Up> :wincmd k<CR>
+nmap <silent> <A-Down> :wincmd j<CR>
+nmap <silent> <A-Left> :wincmd h<CR>
+nmap <silent> <A-Right> :wincmd l<CR>
